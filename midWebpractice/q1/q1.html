@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="q1.css">
+</head>
+<body>
+    <div class="container">
+        <div class="topbar">
+            <div class="brand">Core-Tech</div>
+            <div class="menu">
+                <div class="menu-item active" id="active">Overview</div>
+                <div class="menu-item">Analytics</div>
+                <div class="menu-item">Reports</div>
+                <div class="menu-item">Security</div>
+            </div>
+            <div class="Admin">Admin: System_Root</div>
+        </div>
+        <div class="content">
+            <div class="stat-row">
+                <div class="stat blue">
+                    <div class="stat-label">Total Users</div>
+                    <div class="stat-number">12,450</div>
+                    <div class="status">UP+12% MONTHLY</div>
+                </div>
+                <div class="stat green">
+                    <div class="stat-label">Revenue</div>
+                    <div class="stat-number">$84,200</div>
+                    <div class="status">UP+5.2% weeklyLY</div>
+                </div>
+                <div class="stat orange">
+                    <div class="stat-label">Active Tasks</div>
+                    <div class="stat-number">18</div>
+                    <div class="status">4 Tasks PENDING</div>
+                </div>
+                <div class="stat purple">
+                    <div class="stat-label">System Health</div>
+                    <div class="stat-number">99.9%</div>
+                    <div class="status">System Stable</div>
+                </div>
+
+            </div>
+            <div class="config-row">
+                <div class="system-config">
+                    <div class="config-title">System Configuration</div>
+                    <div class="line"></div>
+
+                    <div class="field-row">
+                        <div class="field-group">
+                            <label>Server</label>
+                            <input type="text" placeholder="Enter server alias">
+                        </div>
+                        <div class="field-group">
+                            <div class="field-label">Deployment Zone</div>
+                            <select>
+                                <option>North America(East)</option>
+                                <option>North America(west)</option>
+                                <option>Asia</option>
+                            </select>    
+                        </div>
+                    </div>
+                    <div class="description">
+                        <div class="field-label">System Description</div>
+                        <textarea></textarea>
+                    </div>
+                </div>
+                <div class="access">
+                    <div class="config-title">Access Permission</div>
+                    <div class="line"></div>
+                    <div class="selection-row">
+                        <div class="select-item"><input type="checkbox" checked>Read</div>
+                        <div class="select-item"><input type="checkbox">Write</div>
+                        <div class="select-item"><input type="checkbox">Delete</div>
+                        <div class="select-item"><input type="checkbox" checked>API</div>
+                    </div>
+                    <div class="button-row">
+                        <button class="Primary">UPDATE SETTINGS</button>
+                        <button class="secondary">RESET</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,161 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(205, 221, 235);
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    border-bottom: 1px solid blue;
+}
+.logo{
+    font-size: large;
+    font-weight: bold;
+    padding: 10px;
+    display: flex;
+    flex-direction:row;
+}
+.uiu{
+    color: black;
+}
+.careerhub{
+    color: blue;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+.menu-item{
+    font-size:large;
+    color: black;
+}
+.jobbutton{
+    background-color: blue;
+    text-align: center;
+    color: azure;
+    border: solid;
+    border-radius: 5px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    padding: 15px 20px 15px;
+    gap: 30px;
+    flex:1;
+    
+
+}
+.leftbar{
+    display: flex;
+    flex-direction: column;
+    flex:25%;
+    gap: 30px;
+    border-radius: 10px;
+    background-color: rgb(205, 221, 235);
+    
+}
+.div1,.div2,.div3{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border: 3px solid white;
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 10px;
+    flex: 1;
+    margin: 20px;  
+}
+.filters,.dept,.exp{
+    font-weight: bold;
+    font-size: large;
+    color: black;
+}
+.jobtype{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: medium;
+    font-weight: bold;
+    color: black;
+}
+.opt{
+    font-weight: lighter;
+    color: black;
+}
+.appFilter{
+    background-color: blue;
+    text-align: center;
+    color: azure;
+    border: 5 px solid;
+    border-radius: 10px;
+}
+.rightbar{
+    display: flex;
+    flex-direction: column;
+    flex:75%;
+    gap: 30px;
+    border-radius: 10px;
+    background-color: rgb(205, 221, 235);
+  
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 20px;
+    color:black;
+   
+}
+.div4,.div5,.div6{
+    border-left: 5px solid green;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 20px;
+    color:black;
+    background-color: white;
+}
+.div5{
+      border-left: 5px solid blue;
+}
+.div41,.div51,.div61{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin:5px ;
+    gap: 10px;
+    color: black;
+   
+}
+.div42,.div52,.div62{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin:5px ;
+    gap: 10px;
+    color: black;
+}
+.apply{
+    background-color: blue;
+    text-align: center;
+    color: azure;
+    border-radius: 10px;
+
+}
+
+
+
+

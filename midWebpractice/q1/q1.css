@@ -1,0 +1,152 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    font-family: Arial,sans-serif ;
+}
+.container{
+    background-color: white;
+    border: 5px solid blue;
+    border-radius: 10px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.topbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: blue;
+    color: white;
+}
+.brand{
+    font-size: 30px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap:5px;
+}
+.menu-item{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 7px;
+}
+.menu-item.active{
+    color: aqua;
+    border-bottom: 3px solid aqua;
+}
+.Admin{
+    font-size: 20px;
+}
+.content{
+    padding: 30px 26px 30px;
+}
+.stat-row,.config-row,.field-row,.selection-row,.button-row{
+
+    display:flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.stat{
+    padding: 10px;
+    width: 25%;
+    height: 150px;
+    border-radius: 9px;
+    color: white;
+}
+.stat-label{
+    font-size: medium;
+    font-weight: bold;
+}
+.stat-number{
+    font-weight: bold;
+    font-size: large;
+    margin: 16px 0;
+}
+.status{
+    text-align: center;
+    font-size: small;
+    padding: 5px;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: rgba(255,255,255,.22);
+
+}
+.blue { background: #1975d1; }
+.green { background: #378b3b; }
+.orange { background: #f78100; }
+.purple { background: #781fa0; }
+.config-row { 
+    margin-top: 24px;
+}
+.config-row{
+    display: flex;
+    flex-direction: row;
+
+}
+.system-config{
+    display:flex;
+    flex-direction: column;
+    flex: 1;
+    border: 5px solid black;
+    border-radius: 5px;
+    align-items: stretch;
+}
+.config-title{
+    padding: 5px;
+    font-size: 15px;
+}
+.line{
+    height: 10px;
+    background-color: blue;
+    margin: 5px;
+}
+input[type="text"], select, textarea {
+  width: 100%;
+  margin-top: 8px;
+  padding: 12px;
+  border: 1px solid #333;
+  border-radius: 4px;
+  background: #fff;
+  box-sizing: border-box;
+}
+textarea{
+    height: 100px;
+}
+.field-row,.selection-row,.button-row{
+   display: flex;
+   flex-direction: row;
+   border-radius: 5px;
+   margin: 20px;
+}
+.field-label{
+    font-size: medium;
+    color: #333;
+    font-weight: bold;
+}
+.access{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    margin: 10px;
+    border: 5px solid black;
+    border-radius: 8px;
+}
+.select-item{
+    width: 25%;
+    padding: 8px;
+    gap: 10px;
+    border: 5px solid black;
+    border-radius: 8px;
+    display:flex;  
+    align-items:center;
+}
+
+
