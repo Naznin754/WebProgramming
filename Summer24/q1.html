@@ -1,0 +1,29 @@
+<html>
+<body>
+
+<h2>Electricity Bill Calculator</h2>
+
+<form>
+    Location:
+    <select id="location">
+        <option value="">Select Location</option>
+        <option value="Dhaka">Dhaka</option>
+        <option value="Chattogram">Chattogram</option>
+        <option value="Other">Other</option>
+    </select>
+    <br><br>
+
+    Area Type:
+    <input type="radio" name="area" value="Urban"> Urban
+    <input type="radio" name="area" value="Rural"> Rural<br><br>
+
+    Unit Consumed:
+    <input type="number" id="units"><br><br>
+
+    <input type="button" value="Calculate Bill" onclick="calculateBill()">
+</form>
+
+<script src="script.js"></script>
+
+</body>
+</html>
